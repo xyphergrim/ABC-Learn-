@@ -13,6 +13,7 @@
 		52DBF2251DE620BC002EA410 /* ABC_Learn_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52DBF2231DE620BC002EA410 /* ABC_Learn_.xcdatamodeld */; };
 		52DBF2271DE620BC002EA410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DBF2261DE620BC002EA410 /* Assets.xcassets */; };
 		52DBF22A1DE620BC002EA410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DBF2281DE620BC002EA410 /* LaunchScreen.storyboard */; };
+		52DBF2331DE6250B002EA410 /* CustomUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DBF2321DE6250B002EA410 /* CustomUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52DBF2261DE620BC002EA410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52DBF2291DE620BC002EA410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52DBF22B1DE620BC002EA410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DBF2321DE6250B002EA410 /* CustomUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		52DBF21B1DE620BC002EA410 /* ABC Learn! */ = {
 			isa = PBXGroup;
 			children = (
+				52DBF2311DE624E0002EA410 /* View */,
 				52DBF21C1DE620BC002EA410 /* AppDelegate.swift */,
 				52DBF21E1DE620BC002EA410 /* ViewController.swift */,
 				52DBF2201DE620BC002EA410 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				52DBF2231DE620BC002EA410 /* ABC_Learn_.xcdatamodeld */,
 			);
 			path = "ABC Learn!";
+			sourceTree = "<group>";
+		};
+		52DBF2311DE624E0002EA410 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52DBF2321DE6250B002EA410 /* CustomUI.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			files = (
 				52DBF21F1DE620BC002EA410 /* ViewController.swift in Sources */,
 				52DBF21D1DE620BC002EA410 /* AppDelegate.swift in Sources */,
+				52DBF2331DE6250B002EA410 /* CustomUI.swift in Sources */,
 				52DBF2251DE620BC002EA410 /* ABC_Learn_.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
